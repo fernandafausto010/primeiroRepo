@@ -2,4 +2,8 @@ const soma = (v1, v2) => {
     return v1 + v2
 }
 
+const subtracao = (v1, v2) => {
+    return v1 - v2
+}
+
 console.log(soma(1, 1))
