@@ -1,10 +1,5 @@
-const helloworld = (nome= "Visitante") => {
-    let frase = `olá, ${nome}!`;
-    return frase;
+const soma = (v1, v2) => {
+    return v1 + v2
 }
-    console.log (helloworld ("Dione"))
-    console.log(helloworld("Geovana"))
-    console.log(helloworld("Fernanda"))
-    console.log(helloworld())
 
-
+console.log(soma(1, 1))
